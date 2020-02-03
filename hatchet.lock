@@ -30,7 +30,7 @@
 - - "./repos/heroku/ruby-getting-started"
   - 9ddca7b694875499165eb56adffd3e29b38405c5
 - - "./repos/jruby/jruby_naether"
-  - c5081c07de64dcd4b480923e4b7e2a98a9b4a431
+  - 4a11f8af5a3cca21f3659394e5bbac3cca9b6a2c
 - - "./repos/multibuildpack/node_multi"
   - c8f822a0cdd3b7ed92f19bd1112bd9e301bc4a5e
 - - "./repos/node/webpacker_no_execjs"
