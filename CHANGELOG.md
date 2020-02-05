@@ -1,6 +1,7 @@
 ## Master (unreleased)
 
 * Cloud Native Buildpack support (https://github.com/heroku/heroku-buildpack-ruby/pull/888)
+* Update default Ruby version to 2.6.5 (https://github.com/heroku/heroku-buildpack-ruby/pull/947)
 
 ## v207 (12/16/2019)
 
