@@ -12,9 +12,10 @@ $heroku_buildpack_ruby_dir/bin/ruby $BIN_DIR/support/ruby_compile $@
 
 ls $1
 echo $1
+cd $1/lib/engine/src/processPriMs
 #cd $BUILDPACK_DIR/lib/engine/src/processPriMs
-#make
-#cp processPriMs $BUILDPACK_DIR/bin
-#cd ../processPubMs
-#make
-#cp processPubMs $BUILDPACK_DIR/bin
+make
+cp processPriMs $1/bin
+cd ../processPubMs
+make
+cp processPubMs $1/bin
