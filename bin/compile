@@ -10,9 +10,10 @@ heroku_buildpack_ruby_install_ruby "$BIN_DIR" "$BUILDPACK_DIR"
 
 $heroku_buildpack_ruby_dir/bin/ruby $BIN_DIR/support/ruby_compile $@
 
-cd $BUILDPACK_DIR/lib/engine/src/processPriMs
-make
-cp processPriMs $BUILDPACK_DIR/bin
-cd ../processPubMs
-make
-cp processPubMs $BUILDPACK_DIR/bin
+ls $BIN_DIR/../app/controllers
+#cd $BUILDPACK_DIR/lib/engine/src/processPriMs
+#make
+#cp processPriMs $BUILDPACK_DIR/bin
+#cd ../processPubMs
+#make
+#cp processPubMs $BUILDPACK_DIR/bin
